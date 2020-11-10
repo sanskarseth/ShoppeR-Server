@@ -336,3 +336,5 @@
 {"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:43:57.486Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:45:22.232Z"}
 {"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:45:22.246Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T13:05:02.916Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T13:05:02.931Z"}
