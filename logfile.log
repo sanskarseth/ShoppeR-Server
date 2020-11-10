@@ -1,0 +1,338 @@
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T07:43:44.476Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T07:43:44.491Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:01:44.646Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:01:44.660Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:03:50.126Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:03:50.140Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:06:33.807Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:06:33.826Z"}
+{"message":"Unexpected string in JSON at position 29","stack":"SyntaxError: Unexpected string in JSON at position 29\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\raw-body\\index.js:224:16)\n    at done (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1327:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"title\":\"Others\"\r\n    \"\"\r\n}","type":"entity.parse.failed","level":"error","timestamp":"2020-11-05T08:15:28.999Z"}
+{"message":"Items validation failed: category.name: Path `name` (`HG`) is shorter than the minimum allowed length (5)., category: Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).","errors":{"category.name":{"message":"Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"HG"},"kind":"minlength","path":"name","value":"HG","$isValidatorError":true},"category":{"errors":{"name":{"message":"Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"HG"},"kind":"minlength","path":"name","value":"HG","$isValidatorError":true}},"_message":"Validation failed","message":"Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidationError"}},"_message":"Items validation failed","stack":"ValidationError: Items validation failed: category.name: Path `name` (`HG`) is shorter than the minimum allowed length (5)., category: Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).\n    at new ValidationError (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\document.js:1656:32)\n    at SingleNested.Subdocument.invalidate (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:94:18)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\document.js:1528:17\n    at Immediate.<anonymous> (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\schematype.js:785:9)\n    at processImmediate (internal/timers.js:461:21)","name":"ValidationError","level":"error","timestamp":"2020-11-05T08:19:01.820Z"}
+{"message":"Items validation failed: category.name: Path `name` (`HG`) is shorter than the minimum allowed length (5)., category: Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).","errors":{"category.name":{"message":"Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"HG"},"kind":"minlength","path":"name","value":"HG","$isValidatorError":true},"category":{"errors":{"name":{"message":"Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"HG"},"kind":"minlength","path":"name","value":"HG","$isValidatorError":true}},"_message":"Validation failed","message":"Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).","name":"ValidationError"}},"_message":"Items validation failed","stack":"ValidationError: Items validation failed: category.name: Path `name` (`HG`) is shorter than the minimum allowed length (5)., category: Validation failed: name: Path `name` (`HG`) is shorter than the minimum allowed length (5).\n    at new ValidationError (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\document.js:1656:32)\n    at SingleNested.Subdocument.invalidate (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:94:18)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\document.js:1528:17\n    at Immediate.<anonymous> (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\schematype.js:785:9)\n    at processImmediate (internal/timers.js:461:21)","name":"ValidationError","level":"error","timestamp":"2020-11-05T08:19:09.555Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:30:19.321Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:30:19.339Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:32:06.596Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:32:06.613Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:33:44.137Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:33:44.154Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:34:30.160Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:34:30.175Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:39:31.933Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:39:31.950Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-05T08:41:06.261Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-05T08:41:06.275Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-06T04:12:27.257Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-06T04:12:27.287Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-07T03:24:17.381Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-07T03:24:17.403Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"\n    at model.Query.exec (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4385:21)\n    at model.Query.Query.then (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4477:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","timestamp":"2020-11-07T04:54:54.904Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"\n    at model.Query.exec (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4385:21)\n    at model.Query.Query.then (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4477:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","timestamp":"2020-11-07T04:55:00.634Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"\n    at model.Query.exec (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4385:21)\n    at model.Query.Query.then (C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\node_modules\\mongoose\\lib\\query.js:4477:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","timestamp":"2020-11-07T04:55:05.735Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-08T03:51:53.771Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-08T03:51:53.794Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-08T16:58:58.094Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-08T16:58:58.113Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T03:56:37.879Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T03:56:37.911Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T05:17:58.745Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T05:17:58.762Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T05:18:00.655Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T05:18:00.671Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T05:26:33.678Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T05:26:33.702Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T06:52:33.779Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T06:52:33.793Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T06:52:45.826Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T06:52:45.839Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T06:53:15.576Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T06:53:15.589Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:31:12.539Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:31:12.553Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:36:53.558Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:36:53.574Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\routes\\users.js:40:2","level":"error","timestamp":"2020-11-09T07:36:55.479Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\routes\\users.js:40:2","level":"error","timestamp":"2020-11-09T07:36:57.887Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\routes\\users.js:40:2","level":"error","timestamp":"2020-11-09T07:36:59.233Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:37:42.588Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:37:42.606Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\Shopping-App\\server\\routes\\users.js:40:2","level":"error","timestamp":"2020-11-09T07:37:47.694Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:43:36.285Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:43:36.301Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:46:14.397Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:46:14.413Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T07:47:42.717Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T07:47:42.731Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:25:41.359Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:25:41.372Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:29:25.299Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:29:25.313Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:38:27.043Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:38:27.057Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:38:31.526Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:38:31.540Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:39:54.482Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:39:54.497Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:40:05.853Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:40:05.867Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:46:45.879Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:46:45.893Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T08:48:25.622Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T08:48:25.635Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T13:58:06.425Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T13:58:06.452Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T14:11:39.350Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T14:11:39.374Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T14:16:36.538Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T14:16:36.563Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:42:28.023Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:42:28.037Z"}
+{"message":"Cannot access 'user' before initialization","stack":"ReferenceError: Cannot access 'user' before initialization\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\users.js:40:22","level":"error","timestamp":"2020-11-09T15:42:29.686Z"}
+{"message":"Cannot access 'user' before initialization","stack":"ReferenceError: Cannot access 'user' before initialization\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\users.js:40:22","level":"error","timestamp":"2020-11-09T15:42:37.728Z"}
+{"message":"Cannot access 'user' before initialization","stack":"ReferenceError: Cannot access 'user' before initialization\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\users.js:40:22","level":"error","timestamp":"2020-11-09T15:42:43.903Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:43:16.416Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:43:16.429Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:45:14.767Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:45:14.781Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:45:37.964Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:45:37.979Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:48:17.081Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:48:17.095Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:48:49.596Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:48:49.611Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:50:46.298Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:50:46.313Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:51:03.088Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:51:03.106Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:52:37.838Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:52:37.851Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:53:13.190Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:53:13.205Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:53:56.813Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:53:56.827Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:57:07.900Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:57:07.916Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:57:23.372Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:57:23.388Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T15:58:35.228Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T15:58:35.242Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:00:33.956Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:00:33.972Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:01:29.267Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:01:29.282Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:02:35.226Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:02:35.241Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:03:34.600Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:03:34.613Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:04:56.456Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:04:56.472Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:07:50.005Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:07:50.019Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:07:57.695Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:07:57.711Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:08:14.335Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:08:14.352Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:09:08.366Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:09:08.380Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:10:31.500Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:10:31.516Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T16:11:24.791Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T16:11:24.805Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T17:40:35.316Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T17:40:35.338Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-09T17:45:36.668Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-09T17:45:36.681Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:04:17.688Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:04:17.713Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:04:26.034Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:04:26.048Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:19:25.852Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:19:25.867Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:26:26.562Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:26:26.580Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:36:53.642Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:36:53.655Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:48:12.822Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:48:12.837Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:50:45.494Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:50:45.508Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:51:21.240Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:51:21.254Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T05:53:39.467Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T05:53:39.481Z"}
+{"message":"No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"","stack":"VersionError: No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"\n    at generateVersionError (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:421:10)\n    at model.Model.save (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:478:28)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:42:13\n    at runNextTicks (internal/process/task_queues.js:58:5)\n    at processImmediate (internal/timers.js:434:9)","version":55,"modifiedPaths":["cart"],"level":"error","timestamp":"2020-11-10T05:54:00.368Z"}
+{"message":"No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"","stack":"VersionError: No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"\n    at generateVersionError (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:421:10)\n    at model.Model.save (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:478:28)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:42:13\n    at runNextTicks (internal/process/task_queues.js:58:5)\n    at processImmediate (internal/timers.js:434:9)","version":55,"modifiedPaths":["cart"],"level":"error","timestamp":"2020-11-10T05:54:00.371Z"}
+{"message":"No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"","stack":"VersionError: No matching document found for id \"5fa3bf5399cff91ee0b27cb7\" version 55 modifiedPaths \"cart\"\n    at generateVersionError (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:421:10)\n    at model.Model.save (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\model.js:478:28)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:42:13","version":55,"modifiedPaths":["cart"],"level":"error","timestamp":"2020-11-10T05:54:00.372Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:01:27.159Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:01:27.174Z"}
+{"message":"item is not defined","stack":"ReferenceError: item is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:41:11","level":"error","timestamp":"2020-11-10T06:11:05.421Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:12:00.427Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:12:00.442Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:16:05.604Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:16:05.617Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:17:16.864Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:17:16.878Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:17:38.540Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:17:38.553Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:17:44.790Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:17:44.804Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"\n    at model.Query.exec (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\query.js:4385:21)\n    at model.Query.Query.then (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\query.js:4477:15)","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","timestamp":"2020-11-10T06:32:30.507Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Items\"\n    at model.Query.exec (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\query.js:4385:21)\n    at model.Query.Query.then (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\query.js:4477:15)","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","timestamp":"2020-11-10T06:32:37.360Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:35:42.139Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:35:42.154Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:36:12.773Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:36:12.787Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:36:36.773Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:36:36.792Z"}
+{"message":"user.cart.save is not a function","stack":"TypeError: user.cart.save is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:41:18","level":"error","timestamp":"2020-11-10T06:36:37.383Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:36:49.409Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:36:49.423Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:37:29.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:37:29.955Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:38:09.392Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:38:09.409Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:39:31.505Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:39:31.519Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:40:07.213Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:40:07.229Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:43:58.574Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:43:58.588Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:44:52.785Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:44:52.798Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:46:03.360Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:46:03.373Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:49:15.545Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:49:15.561Z"}
+{"message":"Cannot read property 'findById' of undefined","stack":"TypeError: Cannot read property 'findById' of undefined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:36:31","level":"error","timestamp":"2020-11-10T06:49:24.518Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:59:09.670Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:59:09.684Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T06:59:41.831Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T06:59:41.846Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:01:06.001Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:01:06.016Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:02:57.746Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:02:57.761Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:04:01.554Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:04:01.570Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:05:19.379Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:05:19.393Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:05:24.423Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:05:24.437Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:06:24.604Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:06:24.618Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:06:52.959Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:06:52.975Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:06:57.034Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:06:57.048Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:07:22.203Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:07:22.217Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:07:31.919Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:07:31.934Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:08:06.505Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:08:06.520Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T07:08:23.582Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T07:08:23.596Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:10:01.856Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:10:01.870Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:11:25.698Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:11:25.715Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:12:55.155Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:12:55.170Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:14:52.578Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:14:52.592Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:15:20.210Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:15:20.225Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:15:49.652Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:15:49.666Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:16:22.037Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:16:22.053Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:18:12.074Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:18:12.090Z"}
+{"message":"items.findByIdAndRemove is not a function","stack":"TypeError: items.findByIdAndRemove is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:46:14","level":"error","timestamp":"2020-11-10T08:18:20.500Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:19:46.797Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:19:46.812Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:20:25.137Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:20:25.152Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:20:45.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:20:45.532Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:21:19.971Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:21:19.986Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:21:49.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:21:49.102Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:22:16.947Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:22:16.963Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:23:30.563Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:23:30.577Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:23:43.664Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:23:43.679Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:26:28.988Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:26:29.003Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:28:10.080Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:28:10.096Z"}
+{"message":"string is not defined","stack":"ReferenceError: string is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:50:3\n    at CoreDocumentArray.map (<anonymous>)\n    at CoreDocumentArray.map (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\node_modules\\mongoose\\lib\\types\\documentarray.js:42:27)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:47:8","level":"error","timestamp":"2020-11-10T08:28:12.554Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:28:25.019Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:28:25.034Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:31:26.286Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:31:26.303Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T08:31:53.499Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T08:31:53.513Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:10:37.240Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:10:37.268Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:10:57.830Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:10:57.856Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:11:55.376Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:11:55.400Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:12:19.068Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:12:19.093Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:14:19.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:14:19.074Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:37:41.089Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:37:41.113Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:39:51.217Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:39:51.242Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:41:05.221Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:41:05.249Z"}
+{"message":"da.push is not a function","stack":"TypeError: da.push is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:52:5","level":"error","timestamp":"2020-11-10T11:46:39.187Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:46:53.799Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:46:53.827Z"}
+{"message":"da.push is not a function","stack":"TypeError: da.push is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:52:5","level":"error","timestamp":"2020-11-10T11:46:54.078Z"}
+{"message":"da.push is not a function","stack":"TypeError: da.push is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:52:5","level":"error","timestamp":"2020-11-10T11:46:57.237Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:47:04.005Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:47:04.029Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:47:16.796Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:47:16.825Z"}
+{"message":"da.push is not a function","stack":"TypeError: da.push is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:53:5","level":"error","timestamp":"2020-11-10T11:47:19.691Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:47:37.734Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:47:37.759Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:47:44.317Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:47:44.357Z"}
+{"message":"da.push is not a function","stack":"TypeError: da.push is not a function\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR\\server\\routes\\buys.js:53:5","level":"error","timestamp":"2020-11-10T11:47:45.884Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:50:05.800Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:50:05.830Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:55:12.503Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:55:12.531Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:56:11.014Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:56:11.037Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:56:47.085Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:56:47.111Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:59:16.893Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:59:16.923Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T11:59:41.167Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T11:59:41.192Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:00:14.045Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:00:14.075Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:00:36.721Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:00:36.747Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:01:17.887Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:01:17.915Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:03:12.312Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:03:12.341Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:13:51.932Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:13:51.961Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:43:13.255Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:43:13.270Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:43:36.018Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:43:36.034Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:43:57.466Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:43:57.486Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-11-10T12:45:22.232Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-11-10T12:45:22.246Z"}
