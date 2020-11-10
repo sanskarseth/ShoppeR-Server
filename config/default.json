@@ -1,6 +1,4 @@
 {
-  "jwtPrivateKey": "unsecureKey",
-  "db": "mongodb://localhost/shopper",
-  "port": "3900",
-  "requiresAuth": true
+  "jwtPrivateKey": "",
+  "db": "mongodb://localhost/shopper"
 }
