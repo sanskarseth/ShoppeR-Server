@@ -28,10 +28,10 @@ router.post('/', [auth], async (req, res) => {
 		},
 		numberInStock: req.body.numberInStock,
 		price: req.body.price,
+		photo: req.body.photo,
 		publishDate: moment().toJSON(),
 	});
 	await item.save();
-	// console.log(item);
 
 	res.send(item);
 });
@@ -53,6 +53,7 @@ router.put('/:id', [auth], async (req, res) => {
 			},
 			numberInStock: req.body.numberInStock,
 			price: req.body.price,
+			photo: req.body.photo,
 		},
 		{ new: true }
 	);
