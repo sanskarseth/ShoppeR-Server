@@ -5,7 +5,7 @@ const _ = require('lodash');
 const express = require('express');
 const router = express.Router();
 
-router.post('/', auth, async (req, res) => {
+router.post('/cart', auth, async (req, res) => {
 	const item = await Item.findById(req.body.itemadd);
 	if (!item) return res.status(400).send('Invalid item.');
 
@@ -24,12 +24,18 @@ router.post('/', auth, async (req, res) => {
 	res.send(item);
 });
 
-router.get('/', auth, async (req, res) => {
+router.get('/cart', auth, async (req, res) => {
 	const user = await User.findById(req.user._id);
 	res.send(user.cart);
 });
 
-router.delete('/:id', auth, async (req, res) => {
+router.get('/history', auth, async (req, res) => {
+	const user = await User.findById(req.user._id);
+
+	res.send(user.history);
+});
+
+router.delete('/cart/:id', auth, async (req, res) => {
 	const user = await User.findById(req.user._id);
 	if (!user) return res.status(400).send('Invalid user.');
 
@@ -42,7 +48,7 @@ router.delete('/:id', auth, async (req, res) => {
 	res.send(item);
 });
 
-router.delete('/', auth, async (req, res) => {
+router.delete('/cart', auth, async (req, res) => {
 	const user = await User.findById(req.user._id);
 	if (!user) return res.status(400).send('Invalid user.');
 
@@ -55,7 +61,16 @@ router.delete('/', auth, async (req, res) => {
 	});
 
 	const element = [];
-	element.push(Date.now());
+
+	const today = new Date();
+	const date =
+		today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+	const time =
+		today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+
+	element.push(date);
+	element.push(time);
+
 	element.push(items);
 	user.history.push(element);
 
