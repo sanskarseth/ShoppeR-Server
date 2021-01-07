@@ -2,11 +2,9 @@ const express = require('express');
 const categories = require('../routes/categories');
 const customers = require('../routes/customers');
 const items = require('../routes/items');
-const rentals = require('../routes/rentals');
 const users = require('../routes/users');
 const auth = require('../routes/auth');
 const buys = require('../routes/buys');
-const returns = require('../routes/returns');
 const error = require('../middleware/error');
 
 module.exports = function (app) {
