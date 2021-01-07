@@ -21,7 +21,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-async-errors": "^2.1.2",
-    "fawn": "^2.1.5",
     "helmet": "^4.3.1",
     "joi": "^13.7.0",
     "joi-objectid": "^2.0.0",
