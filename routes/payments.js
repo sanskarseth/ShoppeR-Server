@@ -32,11 +32,15 @@ router.post('/orders', async (req, res) => {
 			receipt: req.body.orderId,
 		};
 
-		const order = await instance.orders.create(options);
+		// const order = await instance.orders.create(options);
 
-		if (!order) return res.status(500).send('Some error occured');
-
-		res.json(order);
+		instance.orders.create(options, (error, order) => {
+			if (error) {
+				return res.status(500).send('Some error occured');
+			} else {
+				res.json(order);
+			}
+		});
 	} catch (error) {
 		res.status(500).send(error);
 	}
