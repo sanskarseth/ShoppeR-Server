@@ -2,5 +2,7 @@
   "jwtPrivateKey": "",
   "db": "mongodb://localhost/shopper",
   "port": "3900",
+  "razorKeyId": "",
+  "razorKeySecret": "",
   "requiresAuth": true
 }

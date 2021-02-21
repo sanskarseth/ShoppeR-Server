@@ -1,4 +1,6 @@
 {
   "jwtPrivateKey": "shopper_jwtPrivateKey",
-  "db":"shopper_db"
+  "db":"shopper_db",
+  "razorKeyId": "shopper_razorKeyId",
+  "razorKeySecret": "shopper_razorKeySecret"
 }

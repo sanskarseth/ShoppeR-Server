@@ -427,3 +427,98 @@
 {"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2020-12-16T12:12:45.195Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2021-01-07T08:56:54.622Z"}
 {"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-01-07T08:56:54.662Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T12:50:11.095Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T12:50:11.112Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T13:37:06.337Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T13:37:06.350Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T13:43:24.037Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T13:43:24.050Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T13:43:27.490Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T13:43:27.503Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T13:47:43.522Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T13:47:43.538Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:02:38.360Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:02:38.376Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:08:59.193Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:08:59.207Z"}
+{"message":"amount is not defined","stack":"ReferenceError: amount is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\routes\\payments.js:59:15\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at jsonParser (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\body-parser\\lib\\types\\json.js:119:7)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20","level":"error","timestamp":"2021-02-20T14:09:00.651Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:09:14.555Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:09:14.569Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:10:41.877Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:10:41.891Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:11:07.195Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:11:07.211Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:11:41.436Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:11:41.449Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:14:58.352Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:14:58.365Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:15:04.880Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:15:04.895Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:15:38.210Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:15:38.225Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:15:55.924Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:15:55.940Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:16:43.628Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:16:43.642Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:16:51.764Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:16:51.784Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:18:48.638Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:18:48.654Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:19:03.475Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:19:03.488Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:19:11.106Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:19:11.121Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:20:54.158Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:20:54.173Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:22:44.936Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:22:44.951Z"}
+{"message":"url is not defined","stack":"ReferenceError: url is not defined\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\routes\\payments.js:60:16\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at jsonParser (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\body-parser\\lib\\types\\json.js:119:7)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\express-async-errors\\index.js:17:20","level":"error","timestamp":"2021-02-20T14:22:49.602Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:23:25.374Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:23:25.397Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:48:45.028Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:48:45.043Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:49:19.351Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:49:19.365Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T14:50:05.282Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T14:50:05.295Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:17:57.298Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:17:57.315Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:18:08.101Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:18:08.115Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:18:17.939Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:18:17.955Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:33:41.203Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:33:41.218Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:36:30.861Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:36:30.874Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:36:46.429Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:36:46.443Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-20T15:36:50.621Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-20T15:36:50.634Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:12:15.962Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:12:15.988Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:30:14.436Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:30:14.485Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:36:49.274Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:36:49.315Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:43:26.588Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:43:26.637Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:46:57.001Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:46:57.027Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:48:35.494Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:48:35.534Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:52:59.421Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:52:59.462Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:54:52.168Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:54:52.239Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:55:42.089Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:55:42.113Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T05:57:30.255Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T05:57:30.288Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T06:51:53.780Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T06:51:53.794Z"}
+{"message":"Items validation failed: title: Path `title` (`Test`) is shorter than the minimum allowed length (5).","stack":"ValidationError: Items validation failed: title: Path `title` (`Test`) is shorter than the minimum allowed length (5).\n    at model.Document.invalidate (C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\mongoose\\lib\\document.js:2689:32)\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\mongoose\\lib\\document.js:2509:17\n    at C:\\Users\\Sanskar\\Desktop\\Projects\\ShoppeR-Server\\node_modules\\mongoose\\lib\\schematype.js:1259:9\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","errors":{"title":{"properties":{"message":"Path `title` (`Test`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"title","value":"Test"},"kind":"minlength","path":"title","value":"Test"}},"_message":"Items validation failed","level":"error","timestamp":"2021-02-21T06:53:57.732Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T07:01:08.354Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T07:01:08.368Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2021-02-21T07:01:36.409Z"}
+{"level":"info","message":"Connected to mongodb://localhost/shopper...","timestamp":"2021-02-21T07:01:36.423Z"}

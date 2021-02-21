@@ -28,6 +28,7 @@
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "mongoose": "^5.11.10",
+    "razorpay": "^2.0.6",
     "winston": "^2.4.5",
     "winston-mongodb": "^5.0.5"
   },
