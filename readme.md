@@ -5,7 +5,7 @@ This is an e-commerce website for selling items in the college and currently use
 
 # ShoppeR-Server
 
-This is the sever-side of the website which is made with Node & Express and MERN Stack.
+This is the sever-side of the website which is made with Node & Express and MERN Stack. The server is hosted on Heroku.
 
 ## Installation
 
