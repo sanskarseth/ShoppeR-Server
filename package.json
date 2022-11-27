@@ -26,7 +26,7 @@
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "mongoose": "^5.11.10",
     "razorpay": "^2.0.6",
     "winston": "^2.4.5",
